@@ -8,19 +8,22 @@
         .calender {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: 30px repeat(5, 50px);
             row-gap: 20px;
             column-gap: 20px;
 
         }
-        .date {
+        .date, .day {
             background-color: skyblue;
-            height: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
             border-radius: 8px;
         }
         .other-month {
+            background-color: lightgray;
+        }
+        .day {
             background-color: lightgray;
         }
     </style>

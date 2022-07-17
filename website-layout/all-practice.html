@@ -3,8 +3,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calender</title>
+    <title>login form</title>
+    <script src="https://kit.fontawesome.com/a5cdec966a.js" crossorigin="anonymous"></script>
     <style>
+        body {
+            margin: 0;
+            font-family: tahoma;
+        }
+        .main-menu {
+            display: flex;
+            justify-content: space-between;
+        }
+        .row ul {
+            display: flex;
+            
+        }
+        .row ul li {
+            list-style: none;
+        }
+        .row ul li a {
+            text-decoration: none;
+            padding: 5px 20px;
+            color: gray;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 35px;
+        }
+        .login {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .login input {
+            padding: 10px 15px;
+            font-size: 20px;
+        }
+        .login input[type=submit] {
+            text-transform: capitalize;
+            background-color: tomato;
+            color: white;
+            border: 0;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        @media screen and (max-width: 576px) {
+           .main-menu {
+                display: block;
+           }
+        }
+    </style>
+    
+</head>
+<body>
+    <header class="header-area">
+        <nav class="main-menu">
+            <span class="row left">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </span>
+            <span class="row">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </span>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Please login below:</h1>
+        <form action="" class="login">
+            <input type="email" name="" id="" placeholder="Enter Your Email Address" required>
+            <input type="password" name="" id="" placeholder="Enter Your Password" required>
+            <input type="submit" value="login">
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- <title>calender</title> -->
+    <!-- <style>
         .container {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
@@ -26,10 +117,9 @@
         .day {
             background-color: lightgray;
         }
-    </style>
-</head>
-<body>
-    <div class="container">
+    </style> -->
+
+    <!-- <div class="container">
         <div class="day">S</div>
         <div class="day">M</div>
         <div class="day">T</div>
@@ -73,6 +163,4 @@
         <div class="date other-month">2</div>
         <div class="date other-month">3</div>
         
-    </div>
-</body>
-</html>
+    </div> -->

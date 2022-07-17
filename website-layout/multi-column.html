@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi column responsive</title>
+    <style>
+        body {
+            border: 2px solid greenyellow;
+            max-width: 800px;
+            margin: auto;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .food {
+            border: 2px solid gold;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .food img {
+            width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            .container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+        @media screen and (min-width: 577px) and (max-width: 700px) {
+            .container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our online Bazar</h1>
+    </header>
+    <section class="container">
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 100</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam incidunt qui reprehenderit repudiandae laudantium exercitationem placeat porro nulla suscipit.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 200</p>
+            <p>Dolor eos ipsa vero maxime minus animi dolorem, eius blanditiis eaque repudiandae cumque error sint laboriosam beatae rem sed debitis.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 300</p>
+            <p>Explicabo obcaecati et nobis unde a iste adipisci accusantium tenetur neque illum facilis facere esse itaque ea fuga, sint animi?</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 400</p>
+            <p>Eligendi id consequuntur quae amet doloremque iste minus natus quasi architecto? Tempora odio consectetur harum animi perspiciatis, praesentium voluptatum unde.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 500</p>
+            <p>Exercitationem, porro odit! Magni, omnis dolorem. Repudiandae, quo! Explicabo voluptatum cumque unde. Molestias natus deserunt incidunt dolor saepe eligendi voluptate.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 600</p>
+            <p>Optio fugit excepturi corporis velit veniam sed cupiditate dolore laborum autem harum consequuntur nostrum a, eius aliquid necessitatibus obcaecati deserunt.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 700</p>
+            <p>Odio, atque culpa? Id provident reiciendis numquam velit vero culpa veniam facilis vitae alias nihil, quod beatae sed consequatur aliquam?</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 800</p>
+            <p>Sapiente aperiam pariatur quas molestias accusamus deleniti nisi dolor. A nobis commodi delectus dicta dignissimos laborum facilis fuga ipsum nisi!</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 900</p>
+            <p>Itaque hic pariatur sequi sapiente quod maiores velit nihil. Aperiam eveniet quo laudantium doloribus. Numquam, voluptates dolorem? Asperiores, ab deleniti!</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 1000</p>
+            <p>Rerum, ea nihil? Vel nemo temporibus animi commodi, eius iste optio consequuntur aliquid atque quae ad praesentium vitae perspiciatis aspernatur?</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 1100</p>
+            <p>Eaque beatae ducimus iure, quam quidem velit inventore repellat perspiciatis. Nobis maiores odit reiciendis aspernatur eos ad illo atque fugiat.</p>
+            <button>order now</button>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>price: 1200</p>
+            <p>Laudantium quidem, error voluptatibus sint quas hic placeat. Voluptate praesentium commodi quidem atque! Facilis eum reiciendis nihil, fuga nobis expedita?</p>
+            <button>order now</button>
+        </div>
+    </section>
+    <footer>
+        <p>copyright by Sadekur Rahman | 2022-2030</p>
+    </footer>
+</body>
+</html>

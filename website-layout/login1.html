@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script src="https://kit.fontawesome.com/a5cdec966a.js" crossorigin="anonymous"></script>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        .container input {
+            width: 50%;
+            margin-bottom: 10px;
+            padding: 6px 10px;
+            font-size: 18px;
+            border-radius: 6px;
+            border: 1px solid seagreen;
+        }
+        .container input[type=submit] {
+            background-color: goldenrod;
+            color: #ffffff;
+            text-transform: capitalize;
+            cursor: pointer;
+            border: 0;
+        }
+        .main-menu {
+            background-color: darkgray;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-menu ul {
+            display: flex;
+            
+        }
+        .main-menu ul li {
+            list-style: none;
+        }
+        .main-menu ul li a {
+            text-transform: capitalize;
+            text-decoration: none;
+            padding: 10px 10px;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-area">
+        <nav class="main-menu">
+            <span>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">home</a></li>
+                </ul>
+            </span>
+            <span>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i></a></li>
+                </ul>
+            </span>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Login here to help</h1>
+        <input type="email" name="" id="" placeholder="Enter your Email" required>
+        <input type="password" name="" id="" placeholder="Enter your Password" required>
+        <input type="submit" value="login">
+    </div>
+</body>
+</html>
